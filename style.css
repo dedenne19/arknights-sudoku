@@ -18,8 +18,10 @@ body {
 }
 
 .game-board {
-    width: 1200px;
-    height: 1200px;
+    width: 800px;
+    height: 800px;
+    transform: scale(1.5);
+    transform-origin: center;
     background-color: gray;
 
     display: flex;
