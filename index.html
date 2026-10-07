@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arknights Operator Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-board">
+        <div class="game-grid">
+
+            <div></div>
+            <div class="column-label" id="col1"></div>
+            <div class="column-label" id="col2"></div>
+            <div class="column-label" id="col3"></div>
+
+            <div class="row-label" id="row1"></div>
+            <button></button>
+            <button></button>
+            <button></button>
+
+            <div class="row-label" id="row2"></div>
+            <button></button>
+            <button></button>
+            <button></button>
+
+            <div class="row-label" id="row3"></div>
+            <button></button>
+            <button></button>
+            <button></button>
+
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Guess an Operator</h2>
+            <h3 id = "guessdesc">hi</h3>
+
+            <input
+                type="text"
+                id="operator-search"
+                placeholder="Search operator..."
+            >
+
+            <div id="suggestions"></div>
+
+            <button id="close-popup">Close</button>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+
+    <div id="result"></div>
+    
+    <script src="operatorInfo.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
