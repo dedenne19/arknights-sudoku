@@ -18,10 +18,8 @@ body {
 }
 
 .game-board {
-    width: 800px;
-    height: 800px;
-    transform: scale(1.5);
-    transform-origin: center;
+    width: 1200px;
+    height: 1200px;
     background-color: gray;
 
     display: flex;
@@ -38,8 +36,8 @@ body {
 }
 
 .game-grid button {
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 225px;
     padding: 0;
     overflow: hidden;
 }
@@ -63,7 +61,7 @@ body {
 .popup-content {
     background-color: white;
 
-    width: 400px;
+    width: 600px;
     padding: 30px;
 
     border-radius: 10px;
