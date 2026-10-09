@@ -14,7 +14,7 @@ body {
     grid-template-columns: 225px 225px 225px 225px;
     grid-template-rows: 225px 225px 225px 225px;
     gap: 5px;
-    transform: translate(-0px, -0px);
+    transform: translate(-60px, -60px);
 }
 
 .game-board {
