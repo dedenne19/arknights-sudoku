@@ -11,8 +11,8 @@ body {
 
 .game-grid {
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-columns: 225px 225px 225px 225px;
+    grid-template-rows: 225px 225px 225px 225px;
     gap: 5px;
     transform: translate(-40px, -40px);
 }
