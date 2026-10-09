@@ -14,7 +14,7 @@ body {
     grid-template-columns: 225px 225px 225px 225px;
     grid-template-rows: 225px 225px 225px 225px;
     gap: 5px;
-    transform: translate(-40px, -40px);
+    transform: translate(-20px, -20px);
 }
 
 .game-board {
@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .game-grid button {
